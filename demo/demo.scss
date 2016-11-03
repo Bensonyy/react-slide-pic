@@ -1,0 +1,19 @@
+body,article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea{
+    font: 400 .7rem/1.5 -apple-system,Helvetica,Arial,Tahoma,"PingFang SC","Hiragino Sans GB","Lantinghei SC","Microsoft YaHei",sans-serif;
+    color: #333;
+}
+
+li, ol, ul{
+    list-style: none;
+}
+
+.demo{
+	&{text-align:center; width:780px; margin:0 auto;}
+	padding-top: 100px;
+	h1{margin-bottom:30px}
+}
