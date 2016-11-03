@@ -62,7 +62,7 @@ class SlidePic extends React.Component{
 		if (slide) {
 			const _data = data.slice()[index];
 			return (	
-				<li key={ index } className="slide" 
+				<li key={ index+typeof(index) } className="slide" 
 						style={{ width:style.width, height:style.height}}
 						onMouseEnter={ (e)=> this.ctrMouseEnter(e,index) }
 						onMouseLeave={ (e)=> this.ctrMouseLeave(e,index) }
@@ -77,7 +77,7 @@ class SlidePic extends React.Component{
 			if ( transition ) {
 				const _data = data.slice()[index];
 				return (	
-					<li key={ index } className="slide" 
+					<li key={ index+typeof(index) } className="slide" 
 							style={{ width:style.width, height:style.height}}
 							onMouseEnter={ (e)=> this.ctrMouseEnter(e,index) }
 							onMouseLeave={ (e)=> this.ctrMouseLeave(e,index) }
@@ -112,7 +112,7 @@ class SlidePic extends React.Component{
 		for(let i=0; i<len; i++){
     		if ( i===index ) {
     			Ctr.push(	
-    				<li key={i} className='active' 
+    				<li key={ i+typeof(i) } className='active' 
 	    				onMouseEnter={ (e)=> this.ctrMouseEnter(e,i) }
 	    				onMouseLeave={ (e)=> this.ctrMouseLeave(e,i) }
     				/>
@@ -120,7 +120,7 @@ class SlidePic extends React.Component{
     			continue;
     		}
         	Ctr.push(	
-	        	<li key={i} 
+	        	<li key={ i+typeof(i) }
 	        		onMouseEnter={ (e)=> this.ctrMouseEnter(e,i) }
 	    			onMouseLeave={ (e)=> this.ctrMouseLeave(e,i) }
 	        	/>
