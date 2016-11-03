@@ -75,7 +75,7 @@ react-slide-pic props
         </tr>
     </tbody>
 </table>
-#####Note: For web performance considerations, animation using ReactCSSTransitionGroup, open animation support, the browser supports CSS3 to normal experience
+#####Note: For web performance considerations, animation using ReactCSSTransitionGroup, open animation support, the browser supports CSS3 to normal experience.
 
 # Latest version
 1.0.0
