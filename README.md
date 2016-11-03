@@ -2,7 +2,7 @@
 react-slide-pic component
 
 # Screenshot
-![image](https://github.com/yongbingz/react-tooltip/blob/master/demo/screenshot/1.png)
+![image](https://github.com/yongbingz/react-slide-pic/blob/master/demo/screenshot/1.png)
 
 # Usage
 Actual directory of tooltip components in the import project, You may use it like this:
